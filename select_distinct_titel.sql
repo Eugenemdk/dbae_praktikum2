@@ -1,0 +1,1 @@
+SELECT DISTINCT buch.titel FROM bibliothek.buch;

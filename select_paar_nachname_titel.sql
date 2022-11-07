@@ -1,0 +1,1 @@
+SELECT DISTINCT autor.nachname,buch.titel FROM bibliothek.autor INNER JOIN bibliothek.buch ON autor.autorid=buch.buchid

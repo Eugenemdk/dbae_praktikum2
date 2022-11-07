@@ -1,0 +1,1 @@
+SELECT CONCAT(buch.titel,' von ',verlag.name) AS KOMPLETEBUCHNAME FROM bibliothek.buch INNER JOIN bibliothek.verlag ON verlag.verlagsid=buch.verlagsid
